@@ -33,7 +33,7 @@ public class AppController {
      */
     @GetMapping("/private-data")
     public String adminPage() {
-        return "private_page";
+        return "private-page";
     }
 
     /**
